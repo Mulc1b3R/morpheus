@@ -1,48 +1,19 @@
-# Morphic
+# Morpheus
 
 An AI-powered search engine with a generative UI.
 
 ![capture](/public/capture-240404_blk.png)
 
-### Note
 
-Please note that there are differences between this repository and the official website [morphic.sh](morphic.sh). The official website is a fork of this repository with additional features such as authentication, which are necessary for providing the service online. The core source code of Morphic resides in this repository, and it's designed to be easily built and deployed. When using Morphic, please keep in mind the different roles of the repository and the website.
 
-## 🔍 Overview
 
-- 🧱 [Stack](#-stack)
-- 🚀 [Quickstart](#-quickstart)
-- 🌐 [Deploy](#-deploy)
-- ✅ [Verified models](#-verified-models)
 
-### 🚗 Roadmap [WIP]
-
-- [x] Enable specifying the model to use (only writer agent)
-- [ ] Implement chat history functionality
-- [ ] Develop features for sharing results
-- [ ] Add video support for search functionality
-- [ ] Implement Retrieval-Augmented Generation (RAG) support
-- [ ] Introduce tool support for enhanced productivity
-- [ ] Expand Generative UI capabilities
-
-## 🧱 Stack
-
-- App framework: [Next.js](https://nextjs.org/)
-- Text streaming / Generative UI: [Vercel AI SDK](https://sdk.vercel.ai/docs)
-- Generative Model: [OpenAI](https://openai.com/)
-- Search API: [Tavily AI](https://tavily.com/)
-- Component library: [shadcn/ui](https://ui.shadcn.com/)
-- Headless component primitives: [Radix UI](https://www.radix-ui.com/)
-- Styling: [Tailwind CSS](https://tailwindcss.com/)
-
-## 🚀 Quickstart
-
-### 1. Fork and Clone repo
+### 1. Fork or Clone the repo
 
 Fork the repo to your Github account, then run the following command to clone the repo:
 
 ```
-git clone git@github.com:[YOUR_GITHUB_ACCOUNT]/morphic.git
+git clone git@github.com//morphic.git
 ```
 
 ### 2. Install dependencies
