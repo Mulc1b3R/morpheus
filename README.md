@@ -1,11 +1,8 @@
 # Morpheus
 
-An AI-powered search engine with a generative UI.
+An AI-powered search engine UI.
 
 ![capture](/public/capture-240404_blk.png)
-
-
-
 
 
 ### 1. Fork or Clone the repo
@@ -13,15 +10,14 @@ An AI-powered search engine with a generative UI.
 Fork the repo to your Github account, then run the following command to clone the repo:
 
 ```
-
-
+https://github.com/Mulc1b3R/morpheus.git
 ```
 
 ### 2. Install dependencies
 
 ```
-cd morphic
-bun i
+cd morpheus
+npm  i
 ```
 
 ### 3. Fill out secrets
@@ -59,28 +55,19 @@ _Note: This project focuses on Generative UI and requires complex output from LL
 ### 4. Run app locally
 
 ```
-bun dev
+npm start dev
 ```
 
-You can now visit http://localhost:3000.
+visit http://localhost:3000.
 
 ## 🌐 Deploy
 
-Host your own live version of Morphic with Vercel or Cloudflare Pages.
+Host your own live version of Morpheus with Vercel .
 
 ### Vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiurla%2Fmorphic&env=OPENAI_API_KEY,TAVILY_API_KEY)
 
-### Cloudflare Pages
-
-1. Fork the repo to your GitHub.
-2. Create a Cloudflare Pages project.
-3. Select `Morphic` repo and `Next.js` preset.
-4. Set `OPENAI_API_KEY` and `TAVILY_API_KEY` env vars.
-5. Save and deploy.
-6. Cancel deployment, go to `Settings` -> `Functions` -> `Compatibility flags`, add `nodejs_compat` to preview and production.
-7. Redeploy.
 
 ## ✅ Verified models
 
