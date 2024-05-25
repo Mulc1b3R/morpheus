@@ -1,6 +1,6 @@
 # Morpheus
 
-An AI-powered search engine UI.
+An AI-powered search engine UI. GPT4.
 
 ![capture](/public/capture-240404_blk.png)
 
