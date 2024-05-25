@@ -1,4 +1,4 @@
-# Morpheus ![Untitled](https://github.com/Mulc1b3R/morpheus/assets/158625834/10f12e4a-170e-45dd-bb79-ba99ef81328f)
+# Morpheus 
 
 
 An AI-powered search engine UI. GPT4.
