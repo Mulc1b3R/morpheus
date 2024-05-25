@@ -4,7 +4,7 @@ An AI-powered search engine UI. GPT4.
 
 ![capture](/public/capture-240404_blk.png)
 
-
+************************************************************************************************************************************
 ### 1. Fork or Clone the repo
 
  Clone the repo:
@@ -73,10 +73,4 @@ Host your own live version of Morpheus with Vercel .
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiurla%2Fmorphic&env=OPENAI_API_KEY,TAVILY_API_KEY)
 
 
-## ✅ Verified models
-
-List of verified models that can be specified to writers.
-
-- [Groq](https://console.groq.com/docs/models)
-  - LLaMA3 8b
-  - LLaMA3 70b
+*************************************************************************************************************************
