@@ -7,7 +7,7 @@ An AI-powered search engine UI. GPT4.
 
 ### 1. Fork or Clone the repo
 
-Fork the repo to your Github account, then run the following command to clone the repo:
+ Clone the repo:
 
 ```
 https://github.com/Mulc1b3R/morpheus.git
@@ -20,7 +20,7 @@ cd morpheus
 npm  i
 ```
 
-### 3. Fill out secrets
+### 3. Fill out .env
 
 ```
 cp .env.local.example .env.local
@@ -50,7 +50,11 @@ TAVILY_API_KEY=[YOUR_TAVILY_API_KEY]
 # SPECIFIC_API_MODEL=
 ```
 
-_Note: This project focuses on Generative UI and requires complex output from LLMs. Currently, it's assumed that the official OpenAI models will be used. Although it's possible to set up other models, if you use an OpenAI-compatible model, but we don't guarantee that it'll work._
+Note: This project uses gpt4 , which is much more expensive than 3.5 
+and will 'drain' the credit on your api key up to 20 times faster.
+GPT 3.5 is fine for everyday use...
+Zendog : https://zendog-eight.vercel.app/
+
 
 ### 4. Run app locally
 
